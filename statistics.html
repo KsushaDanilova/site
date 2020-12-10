@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Статистика</title>
+</head>
+
+<body>
+  <h1 style="color:white;font-size:38px; text-align: center">Статистика</h1>
+</body>
+<style>
+  body {
+    background-image: url("https://i.pinimg.com/564x/3c/16/fd/3c16fdff727f51e514f1a4270f9d0c3e.jpg");
+  }
+</style>
+
+<body>
+  <table>
+    <tr>
+      <td>Средний возраст</td>
+      <td>{{ all_info['age_mean'] }}</td>
+    </tr>
+    <tr>
+      <td>Минимальный возраст</td>
+      <td>{{ all_info['age_min'] }}</td>
+    </tr>
+    <tr>
+      <td>Максимальный возраст</td>
+      <td>{{ all_info['age_max'] }}</td>
+    </tr>
+    <tr>
+      <td>Средний ответ на вопрос 1</td>
+      <td>{{ all_info['q1_mean'] }}</td>
+    </tr>
+  </table>
+</body>
+
+</html>
